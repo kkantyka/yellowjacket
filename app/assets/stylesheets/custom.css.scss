@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+$body-bg: #595959;
+$font-family-sans-serif: 'Lobster', 'Helvetica Neue', 'Helvetica';
+$navbar-inverse-bg: white;
+$navbar-inverse-link-color: #7f8c8d;
+$navbar-inverse-brand-color: #e67e22;
+$brand-warning: #e67e22;
+$navbar-height: 45px;
+$font-size-base: 18px;
+$navbar-inverse-link-hover-color: #e67e22;
+$navbar-inverse-brand-hover-color: #7f8c8d;
+$navbar-inverse-toggle-icon-bar-bg: #e67e22;
+
+@import 'bootstrap';
+
+li {
+	list-style-type:none;
+}
+
+.banner1 {
+    margin-bottom:2em;
+    margin-top: 2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+
