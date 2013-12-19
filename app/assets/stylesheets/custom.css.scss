@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 
 $body-bg: #595959;
-$font-family-sans-serif: 'Lobster', 'Helvetica Neue', 'Helvetica';
+$font-family-sans-serif: 'Nunito', 'Helvetica Neue', 'Helvetica';
 $navbar-inverse-bg: white;
 $navbar-inverse-link-color: #7f8c8d;
 $navbar-inverse-brand-color: #e67e22;
 $brand-warning: #e67e22;
-$navbar-height: 45px;
+$navbar-height: 50px;
 $font-size-base: 18px;
 $navbar-inverse-link-hover-color: #e67e22;
 $navbar-inverse-brand-hover-color: #7f8c8d;
@@ -27,14 +27,55 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width:100%;
 }
 
 .center {
 	text-align: center;
+	padding:15px;
 }
 
 .navbar-brand {
 	font-weight: bold;
 }
 
+.question {
+	margin-bottom:25px;
+	font-weight:bold;
+}
 
+.panel-warning {
+	margin:6%;
+	padding:1%;
+}
+
+.affix {
+    position: fixed; 
+    width:100%;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+footer a:hover {
+  color: #e67e22;
+}
+
+footer a {
+	color:#7f8c8d;
+}
+
+footer {
+	width:100%;
+}
