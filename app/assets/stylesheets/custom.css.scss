@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 $body-bg: #CCCCCC;
-$font-family-sans-serif: 'Nunito', 'Helvetica Neue', 'Helvetica';
+$font-family: 'Lato', sans-serif;
 $navbar-inverse-bg: #F5F5F5;
 $navbar-inverse-link-color: #7f8c8d;
 $navbar-inverse-brand-color: #e67e22;
@@ -11,6 +11,7 @@ $font-size-base: 18px;
 $navbar-inverse-link-hover-color: #e67e22;
 $navbar-inverse-brand-hover-color: #7f8c8d;
 $navbar-inverse-toggle-icon-bar-bg: #e67e22;
+$link-color: #E65C00;
 
 @import 'bootstrap';
 
@@ -20,6 +21,7 @@ body {
 
 footer small {
   float: left;
+  font-size: small;
 }
 
 footer ul {
@@ -38,19 +40,21 @@ footer a:hover {
 
 footer a {
 	color:#7f8c8d;
+	font-size: small;
 }
 
 footer {
 	width:100%;
+	margin-top:1.5em;
 }
 
-li {
+/*li {
 	list-style-type:none;
-}
+}*/
 
 .banner1 {
-    margin-bottom:2em;
-    margin-top: 2em;
+    margin-bottom:1.0em;
+    margin-top: -2.0em;
 }
 
 img {
@@ -83,3 +87,19 @@ img {
 	border-bottom-color: black;
 }
 
+.panel-bullet {
+	background-color: #F5F5F5;
+	margin-top:1em;
+}
+
+h4 {
+	color:#E65C00;
+}
+
+.payment {
+	margin-bottom:3em;
+}
+
+.nav-list-item	{
+border-right: 1px solid #000000;
+}
