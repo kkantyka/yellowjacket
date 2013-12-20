@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 
-$body-bg: #E3E3E3;
+$body-bg: #CCCCCC;
 $font-family-sans-serif: 'Nunito', 'Helvetica Neue', 'Helvetica';
-$navbar-inverse-bg: #FCFCFC;
+$navbar-inverse-bg: #F5F5F5;
 $navbar-inverse-link-color: #7f8c8d;
 $navbar-inverse-brand-color: #e67e22;
 $brand-warning: #e67e22;
@@ -77,5 +77,9 @@ img {
 .panel-warning {
 	margin:6%;
 	padding:1%;
+}
+
+.navbar {
+	border-bottom-color: black;
 }
 
