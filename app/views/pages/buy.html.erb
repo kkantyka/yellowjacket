@@ -1,15 +1,50 @@
 <div class="container">
-	<div class="panel panel-default ">
-		<div class="panel-heading center">Please use the payment button below to 	      preorder with Bitcoin
+	<div class="panel panel-default payment ">
+		<div class="panel-heading center">Please use the payment button below to preorder with Credit Card (North America)
 		</div>
-		<div class="panel-body center"><%= link_to "Pay with Bitcoin", buy_path, class: "btn btn-warning" %>
+		<div class="panel-body center"><%= link_to " Hash Rate ", "http://www.hashratestore.com/shop/asic/nanofury-yellowjacket-bitfury-usb-asic/" , class: "btn btn-warning" %>
 		</div>
 	</div>
-
 	<div class="panel panel-default payment ">
-		<div class="panel-heading center">Please use the following link to preorder via Credit Card 
+		<div class="panel-heading center">Please use the payment button below to preorder with Credit Card (Outside of North America)
 		</div>
-		<div class="panel-body center"><%= link_to "Pay at Hash Rate Store", "http://www.hashratestore.com/shop/asic/nanofury-yellowjacket-bitfury-usb-asic/" , class: "btn btn-warning" %>
+		<div class="panel-body center"><%= link_to "Big Commerce", "http://www.hashratestore.com/shop/asic/nanofury-yellowjacket-bitfury-usb-asic/" , class: "btn btn-warning" %>
+		</div>
+	</div>
+	<div class="panel panel-default ">
+		<div class="panel-heading center">Please use the payment button below to preorder with Bitcoin
+		</div>
+		<div class="panel-body center">
+			<div class="row">
+			  <div class="col-md-6">
+			  	<div class="panel panel-bullet panel-default ">
+					<div class="panel-body">
+					  	<p class="buysmall1">One miner is 0.1BTC plus 0.01BTC shipping. Shipping is per order, whether you order 1 or 100. There will be free shipping on orders of five or more units. Preorder discount (ending Jan 10th) is 10% off, with free shipping on orders of two or more units. Shipping is global priority mail from China.
+					  		<br>
+					  		<br>
+						Bulk discounts are also available, please contact us for pricing.</p>
+							<br>
+					</div>
+				</div>
+			  </div>
+			    <div class="col-md-6">
+					<div class="panel panel-bullet panel-default ">
+						<div class="panel-body">
+							<ul class="bullet buysmall2">Please see below examples, or drop us a line via the <br> <%= link_to "Contact Us", contact_path %> page.
+							<br><br>
+								<li>1 miner = 0.09BTC + 0.01BTC shipping = 0.1BTC</li>
+								<li>2 miners = 0.18BTC</li>
+								<li>3 miners = 0.27BTC</li>
+								<li>4 miners = 0.36BTC</li>
+								<li>5 miners = 0.45BTC</li>
+								<li>etc...</li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		  	
+  <%= link_to "Pay with Bitcoin", buy_path, class: "btn btn-warning" %>
 		</div>
 	</div>
 </div>
