@@ -1,3 +1,28 @@
 <div class="container">
-<%= image_tag("driver.png", class: "img-circle img-small") %>
+<div class="row ">
+  <div class="col-md-6 ">
+  	<div class=" bfg panel panel-bullet panel-default ">
+  		<div class="panel-heading center">
+  			<h2 class="panel-title"><%= link_to "BFGMINER", "https://en.bitcoin.it/wiki/BFGMiner" %></h2>
+		</div>
+		<div class="panel-body ">
+			BFGMiner is currently the most popular mining software. It works across most platforms and it works with our Yellowjacket miners out of the box. <br><br>
+
+			Download <%= link_to "Here", "https://github.com/luke-jr/bfgminer" %> 
+		</div>
+	</div>
+  </div>
+  <div class="col-md-6 ">
+  	<div class=" cg panel panel-bullet panel-default ">
+  		<div class="panel-heading center">
+  			<h2 class="panel-title"><%= link_to "CGMINER", "https://en.bitcoin.it/wiki/CGMiner" %></h2>
+		</div>
+		<div class="panel-body ">
+			CGMiner is the other popular miner on the market. Yellowjacket is also compatible with CGMiner out of the box. <br><br>
+
+			Download <%= link_to "Here", "https://github.com/ckolivas/cgminer" %> 
+		</div>
+	</div>
+  </div>
+</div>
 </div>
